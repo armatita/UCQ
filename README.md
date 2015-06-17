@@ -76,8 +76,8 @@ This is an example of a wavelet file:
 ```
  First column is just the step (ignore it but put it there), the second the actual wavelet signal. The wavelet size is actually the number of points until you get to 0 in the wavelet step. In our example is 4.
  
- ## What is a well log file
- A well log file is a file with simple X,Y,Z,AI columned information such as this:
+## What is a well log file
+A well log file is a file with simple X,Y,Z,AI columned information such as this:
  
       326.66667       144.66667         0.25000      9278.43000
       326.66667       144.66667         1.25000      9278.24000
@@ -105,3 +105,6 @@ np.save('zero_matrix.npy,g)                # I'm just saving a 3D cube with zero
 I've run this upscale algorithm in a real well log and compared it with the typical upscale made by the client (and used as base information by this algorithm. The quasi-correlation went from 64 % to 97 % which is an amazing result. The comparison can be seen in the following figure.
 
 ![alt tag](https://lh4.googleusercontent.com/PhFDkdPGJoqsIG2DFcQ4BahkkfhOC56pmMkosC8ZrgOBSTD0jNVsHs08aSLeKxhA3V-qXVEUWapT9l4=w1117-h645)
+
+## General information
+This was a small research project made within CERENA research center in IST. If you need more information contact me or send an email to cerena.cmrp@gmail.com.
