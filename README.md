@@ -10,7 +10,7 @@ You have a few functions inside it: initial_stats() and load_stuff() that are lo
 ## What are LAS files loaded
 LAS is a file format that generally looks like this:
 
-'''
+```
 ~VERSION INFORMATION
 VERS.                  2.0 : CWLS LOG ASCII STANDARD VERSION 2.0
 WRAP.                  NO  : DATA IS NOT WRAPPED
@@ -57,7 +57,7 @@ DATUM.m                      75.000          : WELL DATUM KB
 ~A DEPTH        TVD            TVDSS          DEVX           DEVY           TIME           PHIE           DTS            IS             DT             AI             GR             RHOB           
 1075.4868      1075.4868      1050.4868      6122148.2429   7133475.3362   2815.4884      -999.25        -999.25        -999.25        -999.25        -999.25        -999.25        -999.25        
 1075.6392      1075.6392      1050.6392      6122148.2429   7133475.3362   2815.5563      -999.25        -999.25        -999.25        -999.25        -999.25        -999.25        -999.25    
-'''
+```
 
 The algorithm loads this as original files (I would upload the originals to github for you to give it a try but they're confidential information).
 
